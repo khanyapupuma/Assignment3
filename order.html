@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-za" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="styling.css"> 
+<title>KHANYA PUPUMA</title>
+</head>
+<body>
+<div id="page">
+    <div id="sidebar"> 
+        <img src="https://khanyapupuma.github.io/all-images/all-images/Images/swegga.jpg" alt="SWEGGA">
+    </div>
+    <div id="banner"> 
+        <img src="https://khanyapupuma.github.io/all-images/all-images/Images/delivery.gif" alt="DELIVERY">
+    </div>
+    <div id="navigation"> 
+        <img src="https://khanyapupuma.github.io/all-images/all-images/Images/links.gif" alt="navigation" usemap="#home">
+        <map name="home">
+            <area shape="rect" coords="10,5,95,35" href="order.html">
+            <area shape="rect" coords="105,5,190,35" href="services.html">
+            <area shape="rect" coords="205,5,300,35" href="products.html">
+            <area shape="rect" coords="310,5,440,35" href="orderStatus.html">
+            <area shape="rect" coords="450,5,555,35" href="contactUs.html">
+        </map>
+    </div>
+    <div id="main">
+        <form action="orders">
+            <table>
+                <caption>Product Summary</caption>
+                <thead> 
+                    <tr>
+                        <th>Description</th>
+                        <th>Size</th>
+                        <th>Colour</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody> 
+                    <tr>
+                        <td><a href="female.html">Female Ski Jackets</a></td> 
+                        <td><select>
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                        </select></td>
+                        <td><select>
+                            <option>Red</option>
+                            <option>Pink</option>
+                            <option>Black</option>
+                        </select></td>
+                        <td>150.95</td>
+                        <td><input type="number" min="0"></td>
+                        <td class="female output" output></td>
+                    </tr>
+                    <tr>
+                        <td><a href="male.html">Male Ski Jackets</a></td>
+                        <td><select>
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                        </select></td>
+                        <td><select>
+                            <option>Red</option>
+                            <option>Blue</option>
+                            <option>White</option>
+                        </select></td>
+                        <td>180.95</td>
+                        <td><input type="number" min="0"></td>
+                        <td class="male output" output></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <p>Click to confirm and process your order:</p>
+                        </td>
+                        <td>
+                            <button type="button" onclick="calculateTotalPrice()">Total Price</button>
+                        </td>
+                        <td class="total output" output></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <footer>
+        <p class="copyright">&copy; 2020 Swegga Fashion - KHANYA PUPUMA</p>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
+<!-- https://github.com/khanyapupuma/all-images/blob/main/all-images/Images/swegga.jpg
+https://github.com/khanyapupuma/all-images/blob/main/all-images/Images/links.gif
+https://github.com/khanyapupuma/all-images/blob/main/all-images/Images/delivery.gif -->

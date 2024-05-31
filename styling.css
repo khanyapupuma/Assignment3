@@ -1,0 +1,87 @@
+* Examination number */
+
+/* KHANYA PUPUMA */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    background-color: #4766B8;
+    margin-left: 150px;
+    padding: 0; }
+
+#page {
+    width: 750px;
+    background-color: white;
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 10px; }
+
+#banner {
+    margin-bottom: 1em;
+    /* margin-left: 80px; */
+    height: 70px;
+    display: inline-block;
+ }
+ #banner-image{
+    height: 85px;
+    width: 300px;
+ }
+ #main{
+    margin-left: 150px;
+ }
+
+ /* styles for the table */
+
+ table{
+    border: 1px solid black;
+    border-collapse: collapse;
+ }
+
+#navigation {
+    margin-top: 1em;
+    /* margin-left: 75px; */
+    height: 45px;
+    background-color: white; }
+#nav-links{
+    height: 56px;
+    width: 560px;
+}
+#sidebar {
+    width: 150px;
+    height: 370px;
+    background-color: white;
+    margin-bottom: .7em;
+    float: left; }
+#sidebar-image{
+    height: 350px;
+    width: 150px;   
+}
+.copyright {
+    font-size: 90%;
+    text-align: right; 
+    margin: 0; }
+
+footer{
+    margin-top: .5 ems;
+    border-top: 2px solid gray;
+    padding-top:.7 ems ;
+    clear: both;
+}
+    
+/* the styles for the table*/
+
+caption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 150%;
+    color: #4766B8; }
+
+td, th {
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    padding: .2em .7em;
+    font-size: 95%; }   
+    
+.alignRight {
+    text-align: right; }
